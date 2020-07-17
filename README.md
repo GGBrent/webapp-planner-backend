@@ -1,4 +1,4 @@
-## Planner Backend Code
+## Running the Server
 
  The backend code is written in PHP. In order to run this, you must do the following:
  
