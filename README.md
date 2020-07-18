@@ -22,9 +22,9 @@ I have made some SQL tables with a few accounts/posts. If you want these, here's
 
 2.) (Recommended) On the top left, click 'New' and type 'sessions' for the Database name. (Can be anything, really) and click 'Create'
 
-3.) On the left side, click 'sessions' and go to 'Import' and select the accounts.sql file from the sql_tables folder. Then click 'Go' on the bottom right.
+3.) On the left side, click 'sessions' and go to 'Import' and select the sessions.sql file from the sql_tables folder. Then click 'Go' on the bottom right.
 
-4.) Repeat steps 2 & 3, but this time you can name this next table 'accounts.' (Once again, can name this anything) Same thing as step 3, but select users.sql instead to import.
+4.) Repeat steps 2 & 3, but this time you can name this next table 'accounts.' (Once again, can name this anything) Same thing as step 3, but select accounts.sql instead to import.
 
 ## Creating a brand new accounts/sessions SQL table
 
