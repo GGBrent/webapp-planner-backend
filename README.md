@@ -4,7 +4,7 @@
  
  1.) Download Apache XAMPP: https://www.apachefriends.org/download.html
  
- 2.) In your XAMPP folder, you will see a folder named htdocs. This is where you will import the project folder to. The folder that the project is in within htdocs MUST be named planner-backend if it isn't already in order for it to work.
+ 2.) In your XAMPP folder, you will see a folder named htdocs. This is where you will import the project folder to. **The folder that the project is in within htdocs MUST be named planner-backend if it isn't already in order for it to work.**
  
  3.) Running the server:
  
