@@ -18,7 +18,7 @@ if ($_POST) {
                 $sessionsController->removeUser($userID, $sessionID);
                 break;
             case "delete":
-                $sessionsController->removeSession($sessionID);
+                $sessionsController->deleteSession($sessionID);
         }
 
         if ($submitType != "delete") {
@@ -39,9 +39,9 @@ if ($_POST) {
         $sessionID = $_POST["session_id"];
 
         if ($_POST["method"] == "create") {
-            $sessionsController->createSession($author, intval($authorID), $title, $description, $fromDate, $toDate);
+            $sessionsController->setSession($author, intval($authorID), $title, $description, $fromDate, $toDate);
         } else {
-            $sessionsController->editSession($title, $description, $fromDate, $toDate, $sessionID);
+            $sessionsController->updateSession($title, $description, $fromDate, $toDate, $sessionID);
         }
 
         echo json_encode($_POST);

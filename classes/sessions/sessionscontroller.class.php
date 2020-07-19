@@ -2,19 +2,19 @@
 
 class SessionsController extends Sessions
 {
-    public function createSession($author, $authorID, $title, $description, $fromDate, $toDate)
+    public function setSession($author, $authorID, $title, $description, $fromDate, $toDate)
     {
-        $this->setSession($author, $authorID, $title, $description, $fromDate, $toDate);
+        parent::setSession($author, $authorID, $title, $description, $fromDate, $toDate);
     }
 
-    public function editSession($title, $description, $fromDate, $toDate, $sessionID)
+    public function updateSession($title, $description, $fromDate, $toDate, $sessionID)
     {
-        $this->updateSession($title, $description, $fromDate, $toDate, $sessionID);
+        parent::updateSession($title, $description, $fromDate, $toDate, $sessionID);
     }
 
-    public function removeSession($sessionID)
+    public function deleteSession($sessionID)
     {
-        $this->deleteSession($sessionID);
+        parent::deleteSession($sessionID);
     }
 
     public function addUser($userID, $sessionID)
