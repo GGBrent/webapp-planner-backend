@@ -4,7 +4,7 @@
  
  1.) Download Apache XAMPP: https://www.apachefriends.org/download.html
  
- 2.) In your XAMPP folder, you will see a folder named htdocs. This is where you will import the project folder to.
+ 2.) In your XAMPP folder, you will see a folder named htdocs. This is where you will import the project folder to. **The folder that the project is in within htdocs MUST be named planner-backend if it isn't already in order for the frontend to communicate with this**
  
  3.) Running the server:
  
@@ -22,9 +22,9 @@ I have made some SQL tables with a few accounts/posts. If you want these, here's
 
 2.) (Recommended) On the top left, click 'New' and type 'sessions' for the Database name. (Can be anything, really) and click 'Create'
 
-3.) On the left side, click 'sessions' and go to 'Import' and select the accounts.sql file from the sql_tables folder. Then click 'Go' on the bottom right.
+3.) On the left side, click 'sessions' and go to 'Import' and select the sessions.sql file from the sql_tables folder. Then click 'Go' on the bottom right.
 
-4.) Repeat steps 2 & 3, but this time you can name this next table 'accounts.' (Once again, can name this anything) Same thing as step 3, but select users.sql instead to import.
+4.) Repeat steps 2 & 3, but this time you can name this next table 'accounts.' (Once again, can name this anything) Same thing as step 3, but select accounts.sql instead to import.
 
 ## Creating a brand new accounts/sessions SQL table
 

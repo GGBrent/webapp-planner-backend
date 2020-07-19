@@ -13,8 +13,4 @@ class SessionsView extends Sessions
         $result = $this->getSession($sessionID);
         return $result;
     }
-
-    public function formatAttendeesToList($attendees)
-    {
-    }
 }
